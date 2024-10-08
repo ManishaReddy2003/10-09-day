@@ -1,0 +1,27 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+         width: 100%;
+         height: 100px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         background-color: aqua;
+}
+header h1{
+            color: black;
+            flex: 1;
+}
+nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+nav li  a{
+            color: black;
+            
+}
